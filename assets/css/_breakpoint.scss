@@ -1,0 +1,19 @@
+@mixin breakpoint($name) {
+  @if $name == 'mobile' {
+    @media (min-width: 0px) and (max-width: 640px) {
+      @content;
+    }
+  }
+
+  @if $name == 'tablet' {
+    @media (min-width: 641px) and (max-width: 1024px) {
+      @content;
+    }
+  }
+
+  @if $name == 'desktop' {
+    @media (min-width: 1025px) {
+      @content;
+    }
+  }
+}
