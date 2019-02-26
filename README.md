@@ -1,6 +1,6 @@
-# vue-personal-site
+# chrisarnold.io
 
-> My well-made Nuxt.js project
+> My personal portfolio site
 
 ## Build Setup
 
@@ -9,10 +9,10 @@
 $ yarn install
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+$ yarn dev
 
 # build for production and launch server
-$ yarn run build
+$ yarn build
 $ yarn start
 
 # generate static project
