@@ -74,6 +74,8 @@ module.exports = {
           exclude: /(node_modules)/
         });
       }
-    }
+    },
+    publicPath:
+      process.env.NODE_ENV === 'production' ? '/chrisarnold.io_v1/' : './'
   }
 };
